@@ -76,3 +76,18 @@ Principal
 section#capa {
     margin: 150px 10px 0 390px;
 }
+
+section#destaque h1{
+    color: #fff;
+    float: left;
+    margin-top: -350px;
+    font-size: 35px;
+}
+
+section#destaque h4{
+    color: #6133b0b0;
+    float: left;
+    margin-top: -380px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
