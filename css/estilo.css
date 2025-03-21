@@ -1,6 +1,10 @@
+@font-face {
+    font-family: "sole-sans-medium";
+    src: url(../fonts/sole-sans-medium.ttf) format("truetype");
+}
 body {
     background: #3e4d8e url(../img/bg-fundo.png) repeat-x;
-    font: 18px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+    font: 18px "sole-sans-medium", "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
 }
 
 #container {
@@ -55,7 +59,7 @@ nav ul li a:link {
     display: block;
     margin-right: 50px;
     padding-bottom: 3px;
-    font-weight: 750;
+    font-weight: 590;
 }
 
 nav ul li a.botao {
@@ -63,31 +67,56 @@ nav ul li a.botao {
     padding: 10px;
     margin-top: -10px;
     color: #6133b0b0;
+    border-radius: 10px;
 }
 
-Principal 
+/* Principal  */
 
 #conteudo {
     width: 710px;
-    float: left;
     margin-bottom: 20px;
 }
 
 section#capa {
-    margin: 150px 10px 0 390px;
+    margin: 140px 10px 0 390px;
 }
 
 section#destaque h1{
     color: #fff;
     float: left;
-    margin-top: -350px;
+    margin-top: -320px;
     font-size: 35px;
+    font-family: "sole-sans-medium";
+    font-size: 40px;
+    font-weight: 500;
+}
+
+section#destaque h3{
+    color: #fff;
+    float: left;
+    font-size: 10px;
+    font-size: 17px;
+    font-weight: 100;
+    margin-top: -70px;
 }
 
 section#destaque h4{
     color: #6133b0b0;
     float: left;
-    margin-top: -380px;
+    margin-top: -350px;
     font-size: 13px;
     text-transform: uppercase;
+}
+
+section#destaque #botao {
+    float: left;
+    clear: both;
+    margin-top: 20px;
+    font-family: "sole-sans-medium";
+    font-size: 15px;
+    padding: 10px 20px;
+    background: #6353f3b0;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
 }
