@@ -8,6 +8,11 @@ body {
     margin: 0 auto;
 }
 
+a:link, a:active, a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
 /* Logo */
 
 #logo h1 {
@@ -27,4 +32,24 @@ body {
     height: 333px;
     margin-top: 20px;
     float: right;
+}
+
+/* Barra de navegação */
+
+header {
+    padding: 20px 0;
+    height: 55px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 20px;
+    float: right;
+}
+
+nav ul li a:link {
+    display: block;
+    margin-right: 25px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
 }
