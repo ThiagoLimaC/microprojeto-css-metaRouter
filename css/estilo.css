@@ -15,10 +15,16 @@ body {
 }
 
 #logo a {
-    width: 248px;
-    height: 500px;
+    width: 1000px;
+    height: 160px;
     text-indent: -9999px;
     display: block;
     background: url(../img/logo.png) no-repeat;
-    margin-top: 0;
+}
+
+#banner img {
+    width: 633px;
+    height: 333px;
+    margin-top: 20px;
+    float: right;
 }
