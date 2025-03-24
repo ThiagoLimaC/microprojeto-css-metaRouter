@@ -3,12 +3,13 @@
     src: url(../fonts/sole-sans-medium.ttf) format("truetype");
 }
 body {
-    background: #3e4d8e url(../img/bg-fundo.png) repeat-x;
+    background: #fff url(../img/bg-fundo.png) repeat-x;
     font: 18px "sole-sans-medium", "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
 }
 
 #container {
     width: 1080px;
+    height: 100%;
     margin: 0 auto;
 }
 
@@ -72,7 +73,7 @@ nav ul li a.botao {
 
 /* Principal  */
 
-#conteudo {
+.conteudo {
     width: 710px;
     margin-bottom: 20px;
 }
