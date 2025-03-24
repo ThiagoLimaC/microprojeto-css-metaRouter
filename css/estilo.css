@@ -126,8 +126,53 @@ section#destaque #botao {
 
 section#Unparalleled {
     margin-top: 150px;
+    width: 650px;
     float: left;
 }
+
+section#Unparalleled h2 {
+    font-weight: 550;
+    margin-top: -10px;
+    font-size: 39px;
+}
+
+section#Unparalleled h3 {
+    font-weight: 100;
+    margin-top: -15px;
+    font-size: 17px;
+    padding-right: 110px;
+    text-align: justify;
+}
+
+section#Unparalleled h4 {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #545454;
+    font-weight: 300;
+}
+
+section#Unparalleled #botao {
+    float: left;
+    margin-top: 5px;
+    font-family: "sole-sans-medium";
+    font-size: 15px;
+    padding: 10px 20px;
+    background: #6353f3b0;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+
+section#Simplify {
+    float: right;
+    margin-right: -185px;
+    width: 250px;
+    margin-top: -150px;
+}
+
 section#Integrate {
-    
+    float: right;
+    margin-right: 500px;
+    width: 250px;
+    margin-top: -150px;
 }
