@@ -251,6 +251,7 @@ section#Own h4 {
 article#Fit {
     float: left;
     width: 250px;
+    margin-top: 25px;
 }
 
 article#Fit h3 {
@@ -267,3 +268,37 @@ article#Fit p {
     padding-right: 15px;
     color: #545454;
 }
+
+article#Fit #botao {
+    margin-top: 40px;
+    font-family: "sole-sans-medium";
+    font-size: 15px;
+    padding: 10px 20px;
+    background: #6353f3b0;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+
+article#Deploy {
+    float: left;
+    width: 250px;
+    margin-top: -240px;
+    margin-left: 300px;
+}
+
+article#Deploy h3 {
+    font-weight: 900;
+    font-size: 18px;
+    background: url(../img/mini-logo.png) no-repeat;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+article#Deploy p {
+    font-size: 15px;
+    text-align: justify;
+    padding-right: 15px;
+    color: #545454;
+}
+
