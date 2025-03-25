@@ -213,3 +213,10 @@ section#Integrate p {
     padding-right: 15px;
     color: #545454;
 }
+
+section#graph img {
+    width: 690px;
+    height: 400px;
+    margin-left: 240px;
+    margin-top: 50px;
+}
