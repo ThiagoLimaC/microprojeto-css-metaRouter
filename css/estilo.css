@@ -3,7 +3,7 @@
     src: url(../fonts/sole-sans-medium.ttf) format("truetype");
 }
 body {
-    background: #fff url(../img/bg-fundo.png) repeat-x;
+    background: #ffffffc8 url(../img/bg-fundo.png) repeat-x;
     font: 18px "sole-sans-medium", "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
 }
 
@@ -302,3 +302,10 @@ article#Deploy p {
     color: #545454;
 }
 
+article#Adobe img {
+    float: left;
+    width: 580px;
+    margin-left: 560px;
+    margin-top: -400px;
+     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+}
