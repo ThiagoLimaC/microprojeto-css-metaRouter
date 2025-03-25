@@ -220,3 +220,30 @@ section#graph img {
     margin-left: 240px;
     margin-top: 50px;
 }
+
+section#Own {
+    margin-top: 50px;
+    width: 500px;
+    float: left;
+}
+
+section#Own h2 {
+    font-weight: 550;
+    margin-top: -10px;
+    font-size: 39px;
+}
+
+section#Own h3 {
+    font-weight: 100;
+    margin-top: -15px;
+    font-size: 17px;
+    padding-right: 70px;
+    text-align: justify;
+}
+
+section#Own h4 {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #545454;
+    font-weight: 300;
+}
