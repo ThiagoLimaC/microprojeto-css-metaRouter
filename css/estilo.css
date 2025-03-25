@@ -176,9 +176,40 @@ section#Simplify {
     margin-left: -40px;
 }
 
+section#Simplify h3 {
+    font-weight: 900;
+    font-size: 18px;
+    background: url(../img/mini-logo.png) no-repeat;
+    padding-left: 50px;
+    margin-top: 80px;
+}
+
+section#Simplify p {
+    font-size: 15px;
+    text-align: justify;
+    padding-right: 15px;
+    color: #545454;
+}
+
 section#Integrate {
     float: left;
     width: 250px;
     margin-top: 180px;
     margin-right: -90px;
+    margin-left: 30px;
+}
+
+section#Integrate h3 {
+    font-weight: 900;
+    font-size: 18px;
+    background: url(../img/mini-logo.png) no-repeat;
+    padding-left: 50px;
+    margin-top: 80px;
+}
+
+section#Integrate p {
+    font-size: 15px;
+    text-align: justify;
+    padding-right: 15px;
+    color: #545454;
 }
