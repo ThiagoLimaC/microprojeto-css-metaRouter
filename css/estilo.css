@@ -307,5 +307,12 @@ article#Adobe img {
     width: 580px;
     margin-left: 580px;
     margin-top: -400px;
-     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+}
+
+section#depoimento img {
+    margin-top: 100px;
+    margin-left: 200px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
 }
