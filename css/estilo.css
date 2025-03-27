@@ -384,3 +384,100 @@ section#Powerful #botao {
     border: none;
     text-transform: uppercase;
 }
+
+
+section#graph3 img {
+    width: 820px;
+    height: 362px;
+    margin-left: 310px;
+    margin-top: 150px;
+}
+
+section#NoMore {
+    margin-top: 70px;
+    margin-left: 100px;
+    float: left;
+}
+
+section#NoMore h2 {
+    font-weight: 550;
+    font-size: 39px;
+    color: #131313;
+    margin-top: 30px;
+}
+
+section#NoMore h4 {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #232323b5;
+    font-weight: 300;
+}
+
+section#NoMore p {
+    font-size: 17px;
+    text-align: justify;
+    padding-right: 900px;
+    color: #131313;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+section#NoMore #botao {
+    float: left;
+    clear: both;
+    margin-top: 20px;
+    font-family: "sole-sans-medium";
+    font-size: 12px;
+    padding: 10px 20px;
+    background: #6353f3b0;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase;
+}
+
+article#Compilance {
+    float: left;
+    width: 250px;
+    margin-top: -130px;
+    margin-left: 700px;
+}
+
+article#Compilance h3 {
+    font-weight: 900;
+    font-size: 18px;
+    background: url(../img/mini-logo.png) no-repeat;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+article#Compilance p {
+    font-size: 15px;
+    text-align: justify;
+    padding-right: 15px;
+    color: #545454;
+    margin-top: 20px;
+}
+
+article#Total {
+    float: left;
+    width: 250px;
+    margin-top: -170px;
+    margin-left: 990px;
+}
+
+article#Total h3 {
+    font-weight: 900;
+    font-size: 18px;
+    background: url(../img/mini-logo.png) no-repeat;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+article#Total p {
+    font-size: 15px;
+    text-align: justify;
+    padding-right: 15px;
+    color: #545454;
+    margin-top: 20px;
+}
