@@ -314,9 +314,9 @@ article#Deploy p {
 
 article#Adobe img {
     float: left;
-    width: 580px;
-    margin-left: 580px;
-    margin-top: -400px;
+    width: 480px;
+    margin-left: 620px;
+    margin-top: -370px;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
 }
 
@@ -343,19 +343,19 @@ section#image {
 section#Powerful {
     float: left;
     margin-left: 750px;
-    margin-top: -290px;
+    margin-top: -300px;
 }
 
 section#Powerful h2 {
     font-weight: 550;
-    margin-top: -10px;
+    margin-top: 10px;
     font-size: 39px;
-    color: #b5b1b1;
+    color: #ddd9d9;
 }
 
 section#Powerful h3 {
     font-weight: 100;
-    margin-top: -15px;
+    margin-top: 15px;
     font-size: 17px;
     padding-right: 10px;
     text-align: justify;
@@ -374,6 +374,7 @@ section#Powerful p {
     padding-right: 150px;
     color: #b5b1b1;
     line-height: 30px;
+    margin-top: 10px;
 }
 
 section#Powerful #botao {
@@ -549,4 +550,44 @@ section#formulario #botao {
 section#formulario input::placeholder {
     padding: 15px;
     font-family: "sole-sans-medium";
+}
+
+/* Rodape */
+
+footer {
+    width: 100%;
+    background: #c3c3c3;
+}
+
+footer #logo {
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+footer #logo img {
+    margin-left: 100px;
+}
+
+footer #logo ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+footer #logo ul li {
+    float: left;
+    margin-right: 10px;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1000;
+    color: #545454;
+    padding-right: 10px;
+}
+
+footer section#Resource {
+    float: left;
+    padding-left: 200px;
+}
+
+footer section#Resource {
+    
 }
