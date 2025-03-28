@@ -556,7 +556,8 @@ section#formulario input::placeholder {
 
 footer {
     width: 100%;
-    background: #c3c3c3;
+    background: #d0d2d6;
+    margin-top: -100px;
 }
 
 footer #logo {
@@ -565,7 +566,9 @@ footer #logo {
 }
 
 footer #logo img {
-    margin-left: 100px;
+    margin-left: 70px;
+    width: 290px;
+    margin-bottom: 15px;
 }
 
 footer #logo ul {
@@ -576,18 +579,95 @@ footer #logo ul {
 footer #logo ul li {
     float: left;
     margin-right: 10px;
-    font-size: 17px;
+    font-size: 14px;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: 1000;
+    font-weight: bold;
     color: #545454;
     padding-right: 10px;
 }
 
 footer section#Resource {
     float: left;
-    padding-left: 200px;
+    padding-left: 130px;
+    margin-top: -80px;
 }
 
-footer section#Resource {
-    
+footer section#Resource ul {
+    list-style: none;
+}
+
+footer section#Resource ul li{
+    margin-top: 7px;
+}
+
+footer section#Resource ul li a {
+    color: #545454;
+}
+
+footer section#Solutions {
+    float: left;
+    padding-left: 130px;
+    margin-top: -80px;
+}
+
+footer section#Solutions ul {
+    list-style: none;
+}
+
+footer section#Solutions ul li{
+    margin-top: 7px;
+}
+
+footer section#Solutions ul li a {
+    color: #545454;
+}
+
+footer section#Company {
+    float: left;
+    padding-left: 130px;
+    margin-top: -80px;
+}
+
+footer section#Company ul {
+    list-style: none;
+}
+
+footer section#Company ul li{
+    margin-top: 7px;
+}
+
+footer section#Company ul li a {
+    color: #545454;
+}
+
+footer section#redesSocais {
+    padding-left: 20px;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    margin-left: 70px;
+}
+
+footer section#redesSocais h4 {
+    font-weight: 200;
+    font-size: 17px;
+}
+
+footer section#redesSocais ul {
+    list-style: none;
+    margin-top: -23px;
+    margin-left: 400px;
+}
+
+footer section#redesSocais ul li {
+    float: left;
+    font-size: 17px;
+    font-weight: 1000;
+    color: #000000;
+    margin-left: 40px;
+}
+
+footer section#redesSocais ul li a {
+    color: #000000;
+    font-weight: 200;
+    font-size: 17px;
 }
