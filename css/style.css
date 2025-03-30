@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'sole-sans-medium';
+    src: url(../fonts/sole-sans-medium.ttf) format("truetype");
+}
+
 
 * {
     margin: 0;
@@ -10,6 +15,7 @@ body {
     flex-wrap: wrap;
     flex: 1 1 100vw;
     margin: 3px;
+    background: #f5f2f2;
 }
 
 header, nav, main, aside, footer {
@@ -20,19 +26,35 @@ header, nav, main, aside, footer {
 
 header {
     flex: 1 1 100vw;
+    height: 100px;
+    background-color: rgb(25, 25, 71);
 }
 
 header #logo {
     display: flex;
-    flex: 0 1 200px;
+    flex: 0 1 370px;
     justify-content: center;
     align-items: center;
+    border: 1px solid red;
+}
+
+header a#logo {
+    background: url(../img/logo.png) no-repeat center center;
+    text-indent: -9999px;
+    border: 1px solid red;
 }
 
 header nav {
     justify-content: flex-end;
     align-items: center;
     flex: 1 1 200px;
+    background-color: rgb(25, 25, 71);
+    margin-right: 200px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
 }
 
 #openMenu, #closeMenu {
