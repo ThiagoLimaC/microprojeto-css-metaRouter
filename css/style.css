@@ -28,3 +28,36 @@ header #logo {
     justify-content: center;
     align-items: center;
 }
+
+header nav {
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1 1 200px;
+}
+
+#openMenu, #closeMenu {
+    border: none;
+    background: none;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0px 5px 0px 5px;
+    cursor: pointer;
+    display: none;
+}
+
+header nav a {
+    margin: 0 3%;
+    font-size: 15pt;
+}
+
+main {
+    flex: 20 1 500px;
+}
+
+footer {
+    flex: 1 1 100vw;
+}
+
+a {
+    text-decoration: none;
+}
