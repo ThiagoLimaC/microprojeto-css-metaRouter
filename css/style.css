@@ -61,3 +61,36 @@ footer {
 a {
     text-decoration: none;
 }
+
+@media only screen and (max-width: 717px) {
+    #openMenu, #closeMenu {
+        display: block;
+    }
+    
+    #openMenu {
+        margin-left: auto;
+    }
+
+    #closeMenu {
+        position: fixed;
+        right: 15px;
+        top: 15px;
+    }
+
+    nav {
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(255, 255, 255, 0.8);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        opacity: 0;
+        transition: 0.3s;
+    }
+
+    nav a {
+        margin: 3%;
+    }
+}
