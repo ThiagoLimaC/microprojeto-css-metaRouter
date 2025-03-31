@@ -87,7 +87,7 @@ main header section#banner1 {
     flex: 1 1 100%;
     order: 2;
     flex-wrap: wrap;
-    margin: 5% 0 5% 0;
+    margin: 5% 0 20% 0;
 }
 
 main header section.bannerText {
@@ -129,6 +129,7 @@ main header section.bannerText button {
 
 main article#first {
     display: flex;
+    flex: 1 1 100%;
 }
 
 main section.bannerText {
@@ -174,7 +175,19 @@ main section.bannerText button {
 
 main article.littleText {
     width: 25%;
-    margin: 11% 0 5% 1%;
+    margin: 11% 2% 5% 1%;
+}
+
+main article.littleText h3 {
+    font-size: 12pt;
+    background: url(../img/mini-logo.png) no-repeat left;
+    height: 30%;
+    padding-left: 16%;
+    padding-top: 13%;
+}
+
+main article.littleText p {
+    font-size: 11pt;
 }
 
 footer {
