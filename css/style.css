@@ -14,29 +14,22 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex: 1 1 100vw;
-    margin: 3px;
     background: #f5f2f2;
     font-family: 'sole-sans-medium', sans-serif;
 }
 
-header, nav, main, aside, footer {
+header, nav, main, footer {
     background: #f5f2f2;
     display: flex;
-    margin: 3px;
 }
 
 header {
-    flex: 1 1 100vw;
+    width: 100vw;
     height: 100px;
     background-color: rgb(23, 23, 67);
 }
 
-header #logo {
-    display: flex;
-    flex: 0 1 370px;
-    justify-content: center;
-    align-items: center;
-}
+
 
 header a#logo {
     background: url(../img/logo.png) no-repeat center center;
@@ -71,6 +64,7 @@ header nav a {
 main {
     flex: 20 1 500px;
     flex-direction: column;
+    background-color: pink;
 }
 
 main header {
@@ -203,20 +197,25 @@ main section#banner2 {
 
 main section#two-cards {
     display: flex;
-    flex: 1 1 100%;
-    margin: -13% 0 0 8%;
+    background-color: olive;
+    /* flex: 1 1 100%;
+    margin: -13% 0 0 8%; */
+}
+main section#text-two-cards {
+    background-color: aquamarine;
+    height: 100%;
+    display: flex;
 }
 
 main section#bannerSystem img {
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
 }
 
-main section#bannerDepoiment img {
+main section#bannerDepoiment {
+    background-color: rgb(130, 21, 130);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 25%;
-    margin-top: -5%;
 }
 
 main section#bgAltered {
