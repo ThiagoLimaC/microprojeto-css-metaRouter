@@ -211,6 +211,30 @@ main section#bannerSystem img {
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
 }
 
+main section#bannerDepoiment img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: -5%;
+}
+
+main section#bgAltered {
+    display: flex;
+    flex: 1 1 100%;
+    width: 100%;
+    margin-top: 10%;
+    background: url(../img/bg-fundo.png) repeat-x;
+}
+
+main section#bgAltered img {
+    padding: 20%;
+}
+
+main section#bgAltered section.bannerText {
+    
+}
+
 
 footer {
     flex: 1 1 100vw;
