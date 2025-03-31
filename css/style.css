@@ -224,4 +224,8 @@ a {
     main header section#banner1 {
         margin-left: 10%;
     }
+
+    main article#first {
+        flex-direction: column;
+    }
 }
