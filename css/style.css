@@ -80,7 +80,7 @@ main header {
     width: 100%;
     justify-content: flex-end;
     border: 1px solid red;
-    background: url(../img/bg-fundo.png ) no-repeat;
+    background: url(../img/bg-fundo.png ) repeat-x;
 }
 
 main header section#banner1 {
@@ -91,7 +91,7 @@ main header section#banner1 {
 }
 
 main header section.bannerText {
-    margin: 15% 5% 0 8%;
+    margin: 10% 5% 0 8%;
 }
 
 main header section.bannerText h1 {
@@ -127,6 +127,10 @@ main header section.bannerText button {
     border-radius: 5px;
 }
 
+main article#first {
+    display: flex;
+}
+
 main section.bannerText {
     margin: 5% 0 5% 8%;
     width: 50%;
@@ -144,7 +148,7 @@ main section.bannerText h3 {
     font-size: 13pt;
     font-weight: 100;
     margin-top: 1%;
-    width: 80%;
+    width: 90%;
     line-height: 1.6em;
 }
 
@@ -168,6 +172,10 @@ main section.bannerText button {
     text-transform: uppercase;
 }
 
+main article.littleText {
+    width: 25%;
+    margin: 11% 0 5% 1%;
+}
 
 footer {
     flex: 1 1 100vw;
