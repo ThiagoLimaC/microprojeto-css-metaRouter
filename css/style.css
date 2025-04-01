@@ -74,6 +74,7 @@ main section.bannerText h1 {
     font-weight: 500;
     font-size: 30pt;
     margin-top: 5%;
+    padding-right: 15%;
 }
 
 main section.bannerText p {
@@ -91,4 +92,13 @@ main section.bannerText h4 {
     text-transform: uppercase;
 }
 
-
+main section.bannerText button {
+    color: #fff;
+    background-color: rgb(107, 107, 224);
+    border: none;
+    width: 40%;
+    margin-top: 5%;
+    font-size: 12pt;
+    padding: 3% 3%;
+    border-radius: 8px;
+}
