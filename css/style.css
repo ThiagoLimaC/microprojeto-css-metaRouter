@@ -19,6 +19,7 @@ header {
     width: 100%;
     height: 100px;
     background-color: rgb(23, 23, 67);
+    position: fixed;
 }
 
 header #logo, nav#menu {
@@ -53,7 +54,6 @@ main #firstScreen {
     justify-content: center;
     height: 556px;
     background: url(../img/bg-fundo.png);
-    border: 1px solid red;
 }
 
 main #firstScreen section.bannerText {
@@ -107,49 +107,97 @@ main #secondScreen {
     display: flex;
     align-items: top;
     width: 100%;
-    height: 556px;
+    margin-top: 5%;
     border: 1px solid red;
 }
 
 main #secondScreen section.bannerText {
-    width: 50%;
+    width: 60%;
+    margin-left: 8%;
     border: 1px solid red;
 }
 
-main #secondScreen section.bannerText h2 {
+main section.bannerText h2 {
     color: #1e1e1e;
     font-weight: 500;
-    font-size: 30pt;
-    margin-top: 5%;
+    font-size: 29pt;
+    margin-top: 2%;
 }
 
-main #secondScreen section.bannerText p {
-    color: #fff;
-    font-size: 13pt;
+main section.bannerText p {
+    color: #1b1b1b;
+    font-size: 12pt;
     font-weight: 100;
-    margin-top: 5%;
-    padding-right: 40%;
+    margin-top: 3%;
 }
 
-main #secondScreen section.bannerText h4 {
+main section.bannerText h4 {
     color: #b296e4b0;
     font-size: 9pt;
     font-weight: 100;
     text-transform: uppercase;
 }
 
-main #secondScreen section.bannerText button {
+main section.bannerText button {
     color: #fff;
     background-color: rgb(107, 107, 224);
     border: none;
     width: 40%;
-    margin-top: 5%;
-    font-size: 12pt;
-    padding: 3% 3%;
+    margin-top: 1%;
+    font-size: 8pt;
+    text-transform: uppercase;
+    padding: 2% 2%;
     border-radius: 8px;
 }
 
-main #secondScreen {
+main #secondScreen #secondScreen2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8%;
+    margin-left: 2%;
+    margin-top: 9%;
+    width: 50%;
+    border: 1px solid red;
+}
+
+main article.littleText  {
+    padding-left: 5%;
+}
+
+main article.littleText h3 {
+    background: url(../img/mini-logo.png) no-repeat;
+    padding-left: 18%;
+    font-size: 12pt;
+}
+
+main article.littleText p {
+    margin-top: 5%;
+    font-size: 11pt;
+}
+
+main #banner2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 1px solid red;
+}
+
+main #third-content {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
     width: 40%;
-    background-color: aqua;
+    margin-left: 8%;
+}
+
+main #third-content section.bannerText {
+    border: 1px solid red;
+}
+
+main #third-content #third-content2 {
+    border: 1px solid red;
+    display: flex;
 }
