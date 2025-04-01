@@ -106,23 +106,21 @@ main #firstScreen section.bannerText button {
 main #secondScreen {
     display: flex;
     align-items: top;
-    justify-content: center;
+    width: 100%;
     height: 556px;
     border: 1px solid red;
 }
 
 main #secondScreen section.bannerText {
     width: 50%;
-    margin: 8%;
     border: 1px solid red;
 }
 
-main #secondScreen section.bannerText h1 {
+main #secondScreen section.bannerText h2 {
     color: #1e1e1e;
     font-weight: 500;
     font-size: 30pt;
     margin-top: 5%;
-    padding-right: 15%;
 }
 
 main #secondScreen section.bannerText p {
@@ -149,4 +147,9 @@ main #secondScreen section.bannerText button {
     font-size: 12pt;
     padding: 3% 3%;
     border-radius: 8px;
+}
+
+main #secondScreen {
+    width: 40%;
+    background-color: aqua;
 }
