@@ -56,12 +56,12 @@ main #firstScreen {
     border: 1px solid red;
 }
 
-main section.bannerText {
+main #firstScreen section.bannerText {
     width: 30%;
     border: 1px solid red;
 }
 
-main section#banner1 {
+main #firstScreen section#banner1 {
     display: flex;
     justify-content: center;
     width: 50%;
@@ -69,7 +69,7 @@ main section#banner1 {
 }
 
 
-main section.bannerText h1 {
+main #firstScreen section.bannerText h1 {
     color: #fff;
     font-weight: 500;
     font-size: 30pt;
@@ -77,7 +77,7 @@ main section.bannerText h1 {
     padding-right: 15%;
 }
 
-main section.bannerText p {
+main #firstScreen section.bannerText p {
     color: #fff;
     font-size: 13pt;
     font-weight: 100;
@@ -85,14 +85,62 @@ main section.bannerText p {
     padding-right: 40%;
 }
 
-main section.bannerText h4 {
+main #firstScreen section.bannerText h4 {
     color: #b296e4b0;
     font-size: 9pt;
     font-weight: 100;
     text-transform: uppercase;
 }
 
-main section.bannerText button {
+main #firstScreen section.bannerText button {
+    color: #fff;
+    background-color: rgb(107, 107, 224);
+    border: none;
+    width: 40%;
+    margin-top: 5%;
+    font-size: 12pt;
+    padding: 3% 3%;
+    border-radius: 8px;
+}
+
+main #secondScreen {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    height: 556px;
+    border: 1px solid red;
+}
+
+main #secondScreen section.bannerText {
+    width: 50%;
+    margin: 8%;
+    border: 1px solid red;
+}
+
+main #secondScreen section.bannerText h1 {
+    color: #1e1e1e;
+    font-weight: 500;
+    font-size: 30pt;
+    margin-top: 5%;
+    padding-right: 15%;
+}
+
+main #secondScreen section.bannerText p {
+    color: #fff;
+    font-size: 13pt;
+    font-weight: 100;
+    margin-top: 5%;
+    padding-right: 40%;
+}
+
+main #secondScreen section.bannerText h4 {
+    color: #b296e4b0;
+    font-size: 9pt;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+main #secondScreen section.bannerText button {
     color: #fff;
     background-color: rgb(107, 107, 224);
     border: none;
