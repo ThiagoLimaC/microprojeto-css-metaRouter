@@ -19,7 +19,6 @@ header {
     width: 100%;
     height: 100px;
     background-color: rgb(23, 23, 67);
-    position: fixed;
 }
 
 header #logo, nav#menu {
@@ -138,7 +137,7 @@ main section.bannerText h4 {
     text-transform: uppercase;
 }
 
-main section.bannerText button {
+main section.bannerText button.purpleButton {
     color: #fff;
     background-color: rgb(107, 107, 224);
     border: none;
@@ -180,13 +179,15 @@ main #banner2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
     margin-bottom: 5%;
     border: 1px solid red;
 }
 
+main #thirdScreen {
+    display: flex;
+}
+
 main #third-content {
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     width: 40%;
@@ -200,4 +201,38 @@ main #third-content section.bannerText {
 main #third-content #third-content2 {
     border: 1px solid red;
     display: flex;
+    justify-content: flex-start;
+}
+
+main #third-content article.littleText {
+    margin-top: 5%;
+}
+
+main #third-content article.littleText h3 {
+    padding-right: 15%;
+}
+
+main #third-content article.littleText button {
+    color: #fff;
+    background-color: rgb(107, 107, 224);
+    border: none;
+    width: 60%;
+    margin-top: 3%;
+    font-size: 8pt;
+    text-transform: uppercase;
+    padding: 2% 2%;
+    border-radius: 8px;
+}
+
+main .banner2 {
+    margin-left: 5%;
+    margin-top: 0%;
+    border: 1px solid red;
+}
+
+main #depoiment {
+    margin-top: 5%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
 }
