@@ -232,7 +232,30 @@ main .banner2 {
 
 main #depoiment {
     margin-top: 5%;
+    margin-bottom: 5%;
     border: 1px solid red;
     display: flex;
     justify-content: center;
+}
+
+main #fifthScreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    background: url(../img/bg-fundo.png);
+    padding: 5%;
+}
+
+main #fifthScreen section.bannerText {
+    width: 40%;
+}
+
+main #fifthScreen section.bannerText h2 {
+    color: #fff;
+}
+
+main #fifthScreen section.bannerText p {
+    color: #fff;
+    margin-bottom: 3%;
 }
