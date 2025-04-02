@@ -291,4 +291,12 @@ main #seventhScreen article.littleText h3 {
     padding-bottom: 5%;
 }
 
-main #form 
+main #form {
+    display: flex;
+    border: 1px solid red;
+    align-items: center;
+}
+
+main form#form {
+    width: 50%;
+}
