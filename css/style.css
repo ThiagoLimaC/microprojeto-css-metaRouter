@@ -142,7 +142,7 @@ main section.bannerText button.purpleButton {
     background-color: rgb(107, 107, 224);
     border: none;
     width: 40%;
-    margin-top: 1%;
+    margin-top: 5%;
     font-size: 8pt;
     text-transform: uppercase;
     padding: 2% 2%;
@@ -268,3 +268,27 @@ main #sixthScreen {
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
+main #seventhScreen {
+    display: flex;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+main #seventhScreen section.bannerText {
+    width: 50%;
+}
+
+main #seventhScreen #seventhScreen2 {
+    display: flex;
+    margin-top: 10%;
+    width: 50%;
+    text-align: justify;
+    height: 100%;
+}
+
+main #seventhScreen article.littleText h3 {
+    padding-bottom: 5%;
+}
+
+main #form 
