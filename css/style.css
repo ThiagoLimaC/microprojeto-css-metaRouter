@@ -259,3 +259,12 @@ main #fifthScreen section.bannerText p {
     color: #fff;
     margin-bottom: 3%;
 }
+
+main #sixthScreen {
+    display: flex;
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
