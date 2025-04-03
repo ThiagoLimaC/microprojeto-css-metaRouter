@@ -351,3 +351,36 @@ main form#form1 input[type="submit"] {
     border-radius: 8px;
     margin-left: 2%;
 } 
+
+footer {
+    padding: 5%;
+    background-color: #ebe9e9;
+    border: 1px solid red;
+}
+
+footer #footerContent {
+    display: flex;
+    gap: 15%;
+    border: 1px solid green;
+}
+
+footer #footerContent img {
+    margin-left: 5%;
+}
+
+footer #footerContent ul {
+    list-style: none;
+    display: flex;
+    gap: 6%;
+    justify-content: center;
+}
+
+footer section.footerSection {
+    margin-top: 5%;
+}
+
+footer section.footerSection a {
+    text-decoration: none;
+    color: #5b5959;
+    margin-top: 10%;
+}
