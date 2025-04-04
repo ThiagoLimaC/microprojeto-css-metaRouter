@@ -4,7 +4,7 @@ Este é um projeto desenvolvido para praticar e aprender o uso do **CSS Flexbox*
 
 ## Demonstração do Projeto
 
-<img src="img/videoMetaRouter (1).gif" width=900px>
+<img src="img/videoMetaRouter (1).gif" width=700px>
 
 ## Objetivo do Projeto
 
