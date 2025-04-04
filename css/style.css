@@ -32,7 +32,7 @@ header #logo {
 }
 
 header a#logo {
-    background: url(../img/logo.png) no-repeat center center;
+    background: url(../img/logo-white.png) no-repeat center center;
     text-indent: -9999px;
 }
 
@@ -57,14 +57,12 @@ main #firstScreen {
 
 main #firstScreen section.bannerText {
     width: 30%;
-    border: 1px solid red;
 }
 
 main #firstScreen section#banner1 {
     display: flex;
     justify-content: center;
     width: 50%;
-    border: 1px solid red;
 }
 
 
@@ -107,13 +105,11 @@ main #secondScreen {
     align-items: top;
     width: 100%;
     margin-top: 5%;
-    border: 1px solid red;
 }
 
 main #secondScreen section.bannerText {
     width: 60%;
     margin-left: 8%;
-    border: 1px solid red;
 }
 
 main section.bannerText h2 {
@@ -157,7 +153,6 @@ main #secondScreen #secondScreen2 {
     margin-left: 2%;
     margin-top: 9%;
     width: 50%;
-    border: 1px solid red;
 }
 
 main article.littleText  {
@@ -180,7 +175,6 @@ main #banner2 {
     justify-content: center;
     align-items: center;
     margin-bottom: 5%;
-    border: 1px solid red;
 }
 
 main #thirdScreen {
@@ -194,12 +188,8 @@ main #third-content {
     margin-left: 8%;
 }
 
-main #third-content section.bannerText {
-    border: 1px solid red;
-}
 
 main #third-content #third-content2 {
-    border: 1px solid red;
     display: flex;
     justify-content: flex-start;
 }
@@ -227,15 +217,18 @@ main #third-content article.littleText button {
 main .banner2 {
     margin-left: 5%;
     margin-top: 0%;
-    border: 1px solid red;
 }
 
 main #depoiment {
     margin-top: 5%;
     margin-bottom: 5%;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
+}
+
+main #depoiment img {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
 }
 
 main #fifthScreen {
@@ -262,7 +255,6 @@ main #fifthScreen section.bannerText p {
 
 main #sixthScreen {
     display: flex;
-    border: 1px solid red;
     justify-content: center;
     align-items: center;
     margin-top: 5%;
@@ -355,13 +347,11 @@ main form#form1 input[type="submit"] {
 footer {
     padding: 5%;
     background-color: #ebe9e9;
-    border: 1px solid red;
 }
 
 footer #footerContent {
     display: flex;
     gap: 15%;
-    border: 1px solid green;
 }
 
 footer #footerContent img {
@@ -373,14 +363,34 @@ footer #footerContent ul {
     display: flex;
     gap: 6%;
     justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    margin-top: 5%;
 }
 
 footer section.footerSection {
     margin-top: 5%;
+    display: flex;
+    flex-direction: column;
 }
 
 footer section.footerSection a {
     text-decoration: none;
     color: #5b5959;
-    margin-top: 10%;
+}
+
+footer section.footerSection h4 {
+    margin-bottom: 10%;
+}
+
+footer section#socialMedias {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    gap: 10%;
+}
+
+footer section#socialMedias a {
+    text-decoration: none;
+    color: #5b5959;
 }
