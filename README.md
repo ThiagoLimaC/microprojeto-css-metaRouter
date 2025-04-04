@@ -4,7 +4,7 @@ Este é um projeto desenvolvido para praticar e aprender o uso do **CSS Flexbox*
 
 ## Demonstração do Projeto
 
-<video src="img/videoMetaRouter.mp4" controls width="600">
+<video src="img/videoMetaRouter.gif" controls width="600">
 Seu navegador não suporta a tag de vídeo.
 </video>
 
